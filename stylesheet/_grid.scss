@@ -1,0 +1,72 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  // grid-template-rows: repeat(9, 150px);
+  // grid-auto-rows: 250px;
+}
+
+.hero-l,
+.hero-r {
+  grid-column: span 2;
+  // grid-row: 1/6;
+
+  img {
+    height: 100%;
+  }
+}
+.hero-r {
+  padding: 1.5rem;
+  display: grid;
+  align-content: center;
+  // align-self: center;
+}
+
+//rows2
+.article-donec {
+  grid-column: span 2;
+}
+
+// rows3
+
+// .interface-design,
+// .media,
+// .coding,
+// .mobile-app {
+//   justify-self: center;
+// }
+
+// rows 4
+
+.experience,
+.article-experience,
+.education,
+.article-education,
+.contact-us {
+  grid-column: span 2;
+}
+
+.article-education,
+.experience {
+  // align-self: flex-start;
+  // display: flex;
+  // align-items: stretch;
+  overflow: hidden;
+  height: 350px;
+
+  img {
+    max-width: 100%;
+
+    object-fit: contain;
+  }
+}
+
+.contact {
+  display: grid;
+  align-items: stretch;
+  object-fit: cover;
+}
