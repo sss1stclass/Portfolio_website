@@ -488,18 +488,21 @@ header {
   background-color: #f1663b;
   color: white;
 }
-
+.art2{
+  margin-bottom: 1.2rem;
+}
 .article-experience h3,
 .education h3 {
   font-size: 2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.1rem;
+
 }
 
 .article-experience h3 + p,
 .education h3 + p {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.9rem;
 }
 
 .article-experience .fas,
@@ -516,7 +519,7 @@ header {
 .article-experience h4,
 .education h4 {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .article-experience h4 span,
@@ -538,6 +541,9 @@ header {
 }
 .lower{
   text-transform:capitalize;
+}
+.edu__p{
+
 }
 
 .education span {
@@ -781,6 +787,9 @@ margin-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
+  }
+  .header-menu li a:hover{
+    background-color: #ecaf4e;
   }
   .grid {
     -ms-grid-columns: (100%)[1];
